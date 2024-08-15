@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    background-color:#1D0532;
+}
+.links a:hover{
+    color: #581C87;
+    transition: 0.3s ease;
+}
+.circle{
+    background: linear-gradient(45deg, #726bff, #57b6fe);
+    height:30px ;
+    width: 30px;
+}
+.btn{
+    background: linear-gradient(45deg, #726bff, #57b6fe);
+}
+.menu:hover{
+    color: #581C87;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+.close:hover{
+    color: #581C87;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
