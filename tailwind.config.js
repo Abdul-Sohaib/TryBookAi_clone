@@ -8,6 +8,7 @@ export default {
     extend: {
       colors: {
         customviolet:'#6A20AE',
+        customwhite:'#FFFFFF',
         customgradient: 'linear-gradient(90deg, #4A90E2, #7ED321, #F5A623)',
       },
       fontFamily:{

@@ -3,10 +3,10 @@
 @tailwind utilities;
 
 *{
-    background-color:#1D0532;
+    
 }
 .links a:hover{
-    color: #581C87;
+    color: #7825C7;
     transition: 0.3s ease;
 }
 .circle{
@@ -18,12 +18,73 @@
     background: linear-gradient(45deg, #726bff, #57b6fe);
 }
 .menu:hover{
-    color: #581C87;
+    color: #7825C7;
     transition: 0.3s ease;
     cursor: pointer;
 }
 .close:hover{
-    color: #581C87;
+    color: #7825C7;
     transition: 0.3s ease;
     cursor: pointer;
+}
+.card{
+    /* background-color: aliceblue; */
+    border: 2px solid #FFFFFF;
+    border-radius: 2rem;
+    padding: 2vh 2vw;
+    width:fit-content;
+    height:fit-content;
+}
+
+#light .card{
+    border: 2px solid black;
+}
+.close{
+    position: relative;
+    left: 0vw;
+}
+.app{
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+#light{
+    background-color: white;
+}
+#dark{
+    background-color: black;
+}
+
+#light .links a {
+    color: black;
+}
+
+#light .links a:hover{
+    color: #7825C7;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+#light span {
+    color: black;
+}
+
+#light label{
+    color: black;
+}
+#dark label{
+    color: #FFFFFF;
+}
+#light .menu{
+    fill: black;
+}
+#dark .menu{
+    fill: #FFFFFF;
+}
+#light .close{
+    fill: black;
+}
+
+#dark .close{
+    fill: #FFFFFF;
 }
