@@ -5,8 +5,7 @@
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "npm run deploy-to-main",
-     "deploy-to-main": "git add . && git commit -m 'Deploying to main branch' && git subtree push --prefix build origin main",
+    "deploy": "gh-pages -d build",
     "dev": "vite",
     "build": "vite build --base=./",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
